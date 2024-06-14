@@ -44,3 +44,4 @@ figurl = px.line(df, x="Timestamp", y = ["Back-F", "Front-F", "Internal-F", "Int
 plotly.offline.plot(figurl, filename=htmlOut)
 
 #out.close()
+print("That's all folks")
